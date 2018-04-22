@@ -36,7 +36,7 @@ You may search for the cross-product with  $ A \times B = C $
 It gives:
 
 \begin{align}
-B &= \begin{bmatrix}
+C &= \begin{bmatrix}
    4 \\
    2 \\
    -4 \\

@@ -57,6 +57,7 @@ C &= \begin{bmatrix}
 !img[0.8]{20180422153111-cross-product02.png}
 
 
+!enddoc
 > Example (1) using nrpn:
 - nrpn is a rapid method to check the results with little GNU spreadsheet.
 

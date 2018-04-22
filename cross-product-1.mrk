@@ -1,0 +1,64 @@
+
+!tex
+\usepackage{amsmath}
+!gfx
+!gpath{figs/}
+
+!begin
+
+!title Mathematics with the HP48G Calc
+!author GNU Author
+!date 2006 February
+!maketitle
+
+!section Vector Algebra
+!subsection Cross Product: Example 1 
+
+A first basic example is given as follows:
+
+\begin{align}
+A &= \begin{bmatrix}
+   2 \\
+   2 \\
+   3 \\
+\end{bmatrix}
+\end{align}
+
+\begin{align}
+B &= \begin{bmatrix}
+   4 \\
+   2 \\
+   5 \\
+\end{bmatrix}
+\end{align}
+
+You may search for the cross-product with  $ A \times B = C $
+It gives:
+
+\begin{align}
+B &= \begin{bmatrix}
+   4 \\
+   2 \\
+   -4 \\
+\end{bmatrix}
+\end{align}
+
+
+> Example (1) using the HP48G
+-  You may enter  $ [ 2 \; 2 \; 3 ] $ 
+-  You may enter  $ [ 4 \; 2  \; 5 ] $ 
+- In order to calculate the cross product, the "CROSS" function in the HP48G/HP50G will allow to give the solution:
+-   The solution is:  $ [ 4 \;  2 \; -4 ] $ 
+
+
+
+!img[0.8]{20180422153058-cross-product02.png}
+
+!img[0.8]{20180422153111-cross-product02.png}
+
+
+> Example (1) using nrpn:
+- nrpn is a rapid method to check the results with little GNU spreadsheet.
+
+!img[0.5]{20180422155226-cross-product02.png}
+
